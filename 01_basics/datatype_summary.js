@@ -10,8 +10,8 @@
                 BigInt -> bigint
 */
 
-const id = Symbol('123')
-console.log(typeof id);
+// const id = Symbol('123')
+// console.log(typeof id);
 
 // Reference (Non-Primitive)
 
@@ -23,3 +23,13 @@ console.log(typeof id);
 
 
 // Javascript - dynamic typed langugage
+
+
+// **********************************************************************************
+
+/*
+    Memory
+
+    Stack(Primitive) , Heap(Non-Primitive)
+    
+*/
