@@ -17,5 +17,15 @@ const dc_heros = ["superman","flash","batman"]
 */
 const another_array = [1,2,3,[4,5,6],7,8,[2,4]]     
 const flat_array = another_array.flat(Infinity)     
-console.log(flat_array);
+// console.log(flat_array);
 
+
+console.log(Array.isArray("devesh"));   // check array is present or not
+console.log(Array.from("devesh"));      // convert to array
+console.log(Array.from({name: "devesh"}));
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1,score2,score3));
