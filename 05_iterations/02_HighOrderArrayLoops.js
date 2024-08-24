@@ -20,10 +20,25 @@ for (const [key,value] of map) {
 
 
 const MyObject = {
-    game1: "PUBG",
-    game2: "Subway Surfers"
+    js: "javascript",
+    cpp: "C++",
+    py: "python",
+    java: "Java"
 }
 
 // for (const [key,value] of Object.entries(MyObject)) {
 //     console.log(key,value);
 // }
+
+/* for_in loop gives the arrays index not a value */
+for (const key in MyObject) {
+    // console.log(MyObject[key]);
+}
+
+for (const i in arr) {
+    // console.log(arr[i]);
+}
+
+for (const key in map) {
+    console.log(key);
+}
